@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: cornsilk;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras.<br>`)
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()} e em minúsculas é ${nome.toLowerCase()}.<br>`)
+        //para pedir duas casas em números apenas use o ToFixed(2) ou o toPrecision(2) na variavel.
+        //n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) serve para formatar um número como moeda do país, no caso o real brasileiro.
+    </script>
+</body>
+</html>
