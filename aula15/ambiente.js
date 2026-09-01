@@ -1,5 +1,8 @@
 //para executar um arquivo Js: precione F8
 /*
+Funções: são ações executadas assim que são chamadas ou em decorrência de algum evento. Uma função pode receber parâmetros e retornar valores.
+
+
 para adicionar um elemento no array, use o método push()
 para remover um elemento do array, use o método pop()
 para remover o primeiro elemento do array, use o método shift()
@@ -14,11 +17,11 @@ num.sort()
 num.push(60)
 console.log(`O vetor é: ${num}`)
 console.log(`O vetor é: ${num.length}`)
-let pos = num.indexOf(2)
+let pos = num.indexOf(10)
 if (pos == -1) {
     console.log('O valor não foi encontrado!')
 } else {
-    console.log(`O valor 30 está na posição ${pos}`)
+    console.log(`O valor ${num[pos]} está na posição ${pos}`)
 }
 
 /*
