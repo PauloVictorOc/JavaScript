@@ -1,0 +1,5 @@
+as quatros formas de aprensentar algo em Js:
+documen.getElementById
+document.write - tem a mesma função que o innerHTML
+alert
+console.log

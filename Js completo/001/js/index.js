@@ -1,1 +1,1 @@
- alert("alerta acionado");
+document.getElementById("txt").innerHTML = "Primeiro Texto Alterado com Js";
