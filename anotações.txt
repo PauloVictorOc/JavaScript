@@ -1,5 +1,15 @@
+(Sintaxe): maneira do código é escrito
 as quatros formas de aprensentar algo em Js:
 documen.getElementById
 document.write - tem a mesma função que o innerHTML
-alert
-console.log
+alert - mostra uma mensagem de alerta na tela(normalmente de algum erro)
+console.log - mostra uma mensagem na tela.
+
+No java script os textos podem usar aspas duplas("") ou aspas simples('') que ele considera como texto.
+
+três formas de variaveis:
+var: variaveis unicas que precisam ter algo definido
+let:
+const:
+
+CamelCase - para nomes de variaveis (nomeGrande) para separar as palavras em uma só.
