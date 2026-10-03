@@ -1,5 +1,9 @@
 
 
+
+
+
+/*
 function alertaOla() {
     window.alert("Olá Mundo!");
     document.body.style.backgroundColor = "red";
