@@ -13,3 +13,28 @@ let:
 const:
 
 CamelCase - para nomes de variaveis (nomeGrande) para separar as palavras em uma só.
+
+Quando a variavel for "let", o primeiro valor dado é definitivo, caso outro let apareça dentro do scopo não muda nenhum valor.
+Const: o valor do const ele é fixo, caso tenha mais um valor para const, o sistema considera apenas o primeiro valor dado.
+
+Entendendo Operadores:
+-> Os operadores Js são usados para atribuir valores, comparar valores, executar aritiméticas e muito mais.
+
+São eles: + - * / = ++ -- += -= /= && || etc...
+
+Separados em 6 "categorias":
+    1 - Operadores Aritiméticos(matematicos)
+    2 - Operadores de Atribuição
+    3 - Operadores de Sequência - juntar duas strings
+    4 - Operadores de Comparação - Verdadeiro ou Falso(True or False)
+    5 - Operadores Condicional (Ternário) - condicional, caso algo seja uma coisa e não outra(if and else)
+    6 - Operadores Lógicos
+
+
+Funções:
+    Uma função em Js é um bloco de código projetado para executar uma tarefa específica.
+    É como uma pequena "fábrica" onde você faz uma entrada e ele te dá uma saída.
+
+    Pode ser encarado como "mini-programas" projetados para fazer uma tarefa que vai contribuir para todo código.
+    Uma função em Js é executada quando "algo" a invoca.
+    
