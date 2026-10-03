@@ -37,4 +37,33 @@ Funções:
 
     Pode ser encarado como "mini-programas" projetados para fazer uma tarefa que vai contribuir para todo código.
     Uma função em Js é executada quando "algo" a invoca.
-    
+
+Objetos:
+    Objetos são basicamente variáveis com muitos valores dentro
+    Ex: const carro = {marca:"Chev", modelo:"palio", ano:"2016"}
+
+    Os valores dentro de um carro são chamados de prorpiedades
+
+    Objetos também podem ter métodos. Um métodos é uma função colocadas dentro de uma prorpiedade.
+
+Eventos:
+Eventos são ações disparadas pela interação dos usuarios na página.
+É o correto manejo desses eventos que tornam as páginas interatibas e dinamicas
+
+Existem muitos eventos. Esses são os mais utilizados.
+
+onclick -> Disparando uma função quando o usuário clicar no elemento
+ondblclick -> Disparando uma função quando o usuário clicar duas vezes no elemento
+onmouseover -> Disparando uma função quando o usuário passar o mouse sobre o elemento
+onmouseout -> Disparando uma função quando o usuário tirar o mouse do elemento
+onmousemove -> Disparando uma função quando o usuário mover o mouse sobre o elemento
+onmousedown -> Disparando uma função quando o usuário pressionar o botão do mouse sobre o elemento
+onmouseup -> Disparando uma função quando o usuário soltar o botão do mouse sobre o elemento
+onfocus -> Disparando uma função quando o usuário focar no elemento
+onchange -> Disparando uma função quando o usuário alterar o valor do elemento
+onblur -> Disparando uma função quando o usuário tirar o foco do elemento
+onkeydown -> Disparando uma função quando o usuário pressionar uma tecla do teclado
+onekeyup -> Disparando uma função quando o usuário soltar uma tecla do teclado
+onekeypress -> Disparando uma função quando o usuário pressionar e soltar uma tecla do teclado
+onload -> Disparando uma função quando a página for carregada
+onresize -> Disparando uma função quando a página for redimensionada

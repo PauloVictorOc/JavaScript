@@ -1,4 +1,50 @@
 
+
+function alertaOla() {
+    window.alert("Olá Mundo!");
+    document.body.style.backgroundColor = "red";
+}
+
+function eventoDblClick() {
+    window.alert("Clique duplo!");
+    document.body.style.backgroundColor = "blue";
+}
+
+function viraVermelho() {
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "red";
+
+}
+
+function viraAzul() {
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "blue";
+}
+
+function adicionaTexto(){
+    let p = document.getElementById("teste");
+    p.append("Olá Mundo!");
+}
+function limpaTxt(){
+    document.getElementById("campoTxt").value = "";
+}
+function mudou(){
+    console.log("Mudou!");
+}
+function teclaPress(){
+    let input = document.getElementById("campoTxt");
+    console.log(input)
+}
+
+
+/*
+const carro = { marca: "Fiat", modelo: "Uno", ano: 2020, placa: "ABC-1234", buzina: function() { console.log("Buzinando!"); }, completo: function() { return "A marca é" + this.marca + ", seu modelo é " + this.modelo + " e o ano é  " + this.ano; } };
+    console.log(carro.ano);
+    console.log(carro["modelo"]);
+    console.log(carro.completo());
+
+
+/*
 function minhaFuncao(){
     var x = 2;
 }

@@ -10,12 +10,43 @@
             color: #fff;
             text-align: center;
         }
+        div{
+            margin: auto auto;
+            width: 80%;
+            height: 200px;
+            background-color: #fff;
+        }
         </style>
 </head>
-<body>
+<!--
+onmousedown="alert('clicou na tela')"
+onmouseup="alert('soltou o clique')"
+onload="alert('pagina carregada')"
+
+-->
+<body onresize="alert('redimensionado')">
     <h1>Aprendendo Js</h1>
     <p id="txt">O JavaScript</p>
-    <button onclick="alertaOla()">Clique aqui</button>
+    <button onclick="eventoDblClick()">Clique aqui</button><br><br>
+
+    <div id="teste" onmouseout="viraAzul()" onmouseover="viraVermelho()" >
+        <h1>Teste</h1>
+
+    </div>
+    <!--
+    onfocus="alert('Campo focado!')"
+    onfocus="limpaTxt()"
+    onchange="mudou()"
+    onkeypress
+    -->
+    <input onkeydow="teclaPress()" onblur="alertaOla()" id="campoTxt" style="padding:80px; font-size:40px;" type="text" placeholder="Digite algo aqui" value="Texto de Exemplo"><br><br>
+
+    <select id="itens" onchange="mudou">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+    </select>
     
     <script src="js/index.js">
        
