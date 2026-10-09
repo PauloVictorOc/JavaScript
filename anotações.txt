@@ -67,3 +67,14 @@ onekeyup -> Disparando uma função quando o usuário soltar uma tecla do teclad
 onekeypress -> Disparando uma função quando o usuário pressionar e soltar uma tecla do teclado
 onload -> Disparando uma função quando a página for carregada
 onresize -> Disparando uma função quando a página for redimensionada
+
+ARRAYS:
+    Os arrays JS são usados para armazenar vários valores em uma única variavel. Diferente dos objetos, qye funcionam com propriedades ou "nomes" que você dá para os intens dentro dele, os arrays não possuem propriedades. O item dentro dele é encontrado pela posição.
+
+    Imagine um array como uma lista de iten, com controle, por ordem de posição dentro dele.
+
+    Ex: const lista = ["arroz", "feilão", "macarrão", "leite"];
+
+    A lista[0] (lista na posição 0) vai conter o valor "arroz".
+    A lista[1] (lista na posição 1) vai conter o valor "feijão".
+    e assim continua...

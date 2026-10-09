@@ -1,5 +1,63 @@
 
 
+/*toda matriz começa com 0.
+
+opção 1:
+
+var item1 = "arroz";
+var item2 = "feijão";
+var item3 = "macarrão";
+var item4 = "carne";
+
+const lista = [item1, item2, item3, item4];
+
+alert(lista[0]);
+
+opção 2:
+
+const lista = [
+    "arroz",
+    "feijão",
+    "macarrão",
+    "carne"
+];
+
+opção 3:
+
+const lista = [];
+lista[0] = "arroz";
+lista[1] = "feijão";
+lista[2] = "macarrão";
+lista[3] = "carne";
+
+opção 4:
+
+const lista = new Array("arroz", "feijão", "macarrão", "carne");
+
+let x=lista[2]
+
+const pessoa = ["João", 25, "São Paulo"];
+
+-> caso queria colocar obejeto dentro de uma matriz utilize chaves {} ex:
+const pessoa = {nome: "João", idade: 25, cidade: "São Paulo"};
+
+-> caso queira saber quantos itens tem no seu array utilize o .length ex:
+const lista = ["arroz", "feijão", "macarrão", "carne"];
+
+console.log(lista.length);
+
+-> para mostrar o ultimo item do array utilize o .length -1 ex:
+const lista = ["arroz", "feijão", "macarrão", "carne"];
+
+console.log(lista[lista.length - 1]);
+
+-> para adicionar um item no final do array utilize o .push
+const lista = ["arroz", "feijão", "macarrão", "carne"];
+lista.push("batata"); ou lista[lista.length] = "batata";
+
+-> para adicionar um item no inicio do array utilize o .unshift
+const lista = ["arroz", "feijão", "macarrão", "carne"];
+lista.unshift("batata");
 
 
 
