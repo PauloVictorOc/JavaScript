@@ -1,4 +1,66 @@
 
+const numeros = [5, 12, 8, 130, 44, 7, 1, 9, 15, 22];
+const maior20 = numeros.filter(function(valor) {
+    return valor > 20;
+});
+
+document.getElementById("txt").innerHTML = maior20;
+
+function filtragem(value, index, array) {
+    return value > 20;
+}
+
+function MaiorNumero(array) {
+    return Math.max.apply(null, array);
+}
+
+function MenorNumero(array) {
+    return Math.min.apply(null, array);
+}
+
+
+/*
+const numeros = [5, 12, 8, 130, 44, 7, 1, 9, 15, 22];
+numeros.sort(function(a, b) {
+  return a - b;
+});
+
+document.getElementById("txt").innerHTML = numeros;
+
+
+
+
+/*
+const jogadores = ["João", "Maria", "Pedro", "Ana", "Lucas", "Carla", "Rafael", "Fernanda"];
+const jogOrdem = jogadores.sort();
+const jogReversa = jogadores.reverse();
+
+document.getElementById("txt").innerHTML = jogOrdem;
+
+
+/*
+const jogadores = ["João", "Maria", "Pedro", "Ana", "Lucas", "Carla", "Rafael", "Fernanda"];
+const melhores = jogadores.slice(2, 6);
+
+document.getElementById("txt").innerHTML = melhores;
+
+
+/* 
+atribuindo valores a variáveis em um nova lista.
+atribuindo valores a variáveis em um nova lista.
+const lista1 = ["arroz", "feijão", "macarrão", "carne"];
+const lista2 = ["batata", "tomate", "alface", "cenoura"];
+
+const slista = lista1.concat(lista2);
+
+document.getElementById("txt").innerHTML = slista;
+
+/*
+const pessoa = ["João", 25, "Engenheiro de Software"];
+pessoa.push("São Paulo");
+
+document.getElementById("txt").innerHTML = pessoa;
+
 
 /*toda matriz começa com 0.
 

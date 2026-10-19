@@ -78,3 +78,7 @@ ARRAYS:
     A lista[0] (lista na posição 0) vai conter o valor "arroz".
     A lista[1] (lista na posição 1) vai conter o valor "feijão".
     e assim continua...
+
+unshift -> adiciona um item a primeira posição(0)
+.push -> adiciona no final da lista mais um item especifico
+.splice -> adiciona mais um item em uma posição especifica, também substitui.
