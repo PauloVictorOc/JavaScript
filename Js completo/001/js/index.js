@@ -1,4 +1,15 @@
 
+var hora = new Date().getHours();
+if (hora < 12) {
+    alert("Bom dia!");
+} else if (hora < 18) {
+    alert("Boa tarde!");
+} else {
+    alert("Boa noite!");
+}
+
+
+/*
 const numeros = [5, 12, 8, 130, 44, 7, 1, 9, 15, 22];
 const maior20 = numeros.filter(function(valor) {
     return valor > 20;
